@@ -1,0 +1,38 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #fce4ec;
+    font-family: 'Brush Script MT', cursive ;
+    margin: 0;
+    position: relative;
+}
+
+.contenido{
+    text-align: center;
+}
+
+.abajo{
+    width: 90%;
+    max-width: 600px;
+    padding: 20px;
+    background-color: #e6e6fa;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgb(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.titulo{
+    margin-top: 0;
+    font-size: 32px;
+    color: #ff6f61;
+    margin-bottom: 20px;
+}
+
+.text{
+    font-size: 24px;
+    color: #333;
+    white-space: pre-wrap;
+}
